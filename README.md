@@ -29,6 +29,7 @@ Padding: The padding is the space between the content and the element's border. 
 Border: The border surrounds the padding and content and can be styled using CSS properties like border-width, border-style, and border-color.
 
 Margin: The margin is the space outside the border. It creates separation between elements on the page, controlling how they are positioned relative to each other.
+```javascript
 
 +-----------------------------------+
 |              Margin               |
@@ -42,5 +43,6 @@ Margin: The margin is the space outside the border. It creates separation betwee
 |  |  +----------------------+  |   |
 |  +----------------------------+   |
 +-----------------------------------+
+```
 
 _____________________________________________________________________________________________________________________________________________
