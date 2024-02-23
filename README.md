@@ -116,4 +116,28 @@ html
 ```
 
 Each method of applying CSS has its place depending on the specific requirements of your project. External CSS is typically preferred for larger projects to maintain code organization and reusability, while internal and inline CSS may be used for smaller projects or when applying styles to individual elements.
+________________________________________________________________________________________________________________________
+css overflow
+
+In CSS, the overflow property specifies how content that overflows the element's box should be handled. It has several possible values:
+
+visible (default): Content is not clipped and may overflow the content box.
+
+hidden: Content that overflows the content box is clipped and not displayed.
+
+scroll: Adds a scrollbar to the element, allowing the user to scroll to see the overflowed content.
+
+auto: Adds a scrollbar to the element only if the content overflows. It will automatically appear when needed.
+
+overlay: Similar to auto, but it adds a scrollbar in a way that does not affect the layout of the page, meaning the scrollbar is layered over the content.
+
+The overflow property can be applied to both block and inline elements. It is commonly used to control the behavior of overflowing content in elements like divs, paragraphs, and other containers.
+```javascript
+
+div {
+    width: 200px;
+    height: 100px;
+    overflow: scroll; /* or hidden, auto, overlay */
+}
+```
 
