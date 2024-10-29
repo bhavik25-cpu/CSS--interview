@@ -200,8 +200,85 @@ Flexbox is more suitable for layouts where elements need to be aligned and distr
 
 
 
+________________________________________________________________________
+
+ css postion
 
 
+
+Here are the different CSS position properties:
+
+Static:
+
+Default value. Elements are positioned according to the normal flow of the document.
+
+css
+
+```javascript
+
+.static {
+  position: static;
+}
+```
+
+Relative:
+
+Positioned relative to its normal position. The offsets move it away from its default spot without affecting the layout of surrounding elements.
+
+```javascript
+
+.relative {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+```
+
+Absolute:
+
+Positioned relative to the nearest positioned ancestor (non-static). If none exists, it’s relative to the initial containing block.
+
+```javascript
+
+.absolute {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+```
+
+Fixed:
+
+Positioned relative to the viewport, staying in the same place even during scrolling.
+
+```javascript
+
+.fixed {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+```
+
+Sticky:
+
+Positioned based on the user's scroll position. It toggles between relative and fixed, depending on the scroll position.
+
+```javascript
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+```
+
+These position values give you flexibility in how elements are placed on your web pages. Handy, right?
+
+_______________________________________________________________________________________________________
+
+display show me all css
 
 
 
